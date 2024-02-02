@@ -43,6 +43,21 @@ $(".btn").click(function() {
 
     checkAnswer(userClickedPattern.length-1);
     // console.log(userClickedPattern);
+    console.log('this i more stuff to  atest to be overwritten');
+    console.log('this i more stuff to  atest to be overwritten');
+    console.log('this i more stuff to  atest to be overwritten');
+    console.log('this i more stuff to  atest to be overwritten');
+    console.log('this i more stuff to  atest to be overwritten');
+    console.log('this i more stuff to  atest to be overwritten');
+    console.log('this i more stuff to  atest to be overwritten');
+    console.log('this i more stuff to  atest to be overwritten');
+    console.log('this i more stuff to  atest to be overwritten');
+    console.log('this i more stuff to  atest to be overwritten');
+    console.log('this i more stuff to  atest to be overwritten');
+    console.log('this i more stuff to  atest to be overwritten');
+    console.log('this i more stuff to  atest to be overwritten');
+    console.log('this i more stuff to  atest to be overwritten');
+    console.log('this i more stuff to  atest to be overwritten');
 });
 
 function playSound(name){
