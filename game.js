@@ -6,6 +6,39 @@ var buttonColours = [
     "yellow"
 ];
 
+//sequence of random buttons generated
+var gamePattern = [];
+
+//game started bool
+var started = false;
+
+//initialize level
+var level = 0;
+
+$(document).keypress(function () {
+    if(!started) {
+        $("#level-title").text("Level " + level);
+        nextSequence();
+        started = true;
+
+        console.log('this i atest to be overwritten');
+
+    }
+});
+
+//sequence of buttons clicked by user
+var userClickedPattern = [];
+
+$(".btn").click(function() {
+    var userChosenColour = $(this).attr("id");
+    userClickedPattern.push(userChosenColour);
+
+    playSound(userChosenColour);
+    animatePress(userChosenColour);
+
+    checkAnswer(userClickedPattern.length-1);
+    // console.log(userClickedPattern);
+});
 
 function playSound(name){
     var audio = new Audio("sounds/" + name + ".mp3");
