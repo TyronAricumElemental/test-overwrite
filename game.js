@@ -22,6 +22,11 @@ $(document).keypress(function () {
         started = true;
 
         console.log('this i atest to be overwritten');
+        console.log('this i atest to be overwritten');
+        console.log('this i atest to be overwritten');
+        console.log('this i atest to be overwritten');
+        console.log('this i atest to be overwritten');
+        console.log('this i atest to be overwritten');
 
     }
 });
