@@ -20,6 +20,9 @@ $(document).keypress(function () {
         $("#level-title").text("Level " + level);
         nextSequence();
         started = true;
+
+        console.log('this i atest to be overwritten');
+
     }
 });
 
